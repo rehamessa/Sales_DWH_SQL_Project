@@ -26,7 +26,7 @@ Develop a modern data warehouse using **SQL Server** to consolidate sales data, 
 - **Documentation:**  
   Provide clear documentation of the data model to support both **business stakeholders** and **analysts**.
 ### Draw DWH Architecture
-[Draw DWH Architecture](https://github.com/rehamessa/Sales_DWH_SQL_Project/blob/main/Images/Design_DWH_Architecture.png)
+![Draw DWH Architecture](https://github.com/rehamessa/Sales_DWH_SQL_Project/blob/main/Images/Design_DWH_Architecture.png)
 ---
 
 ### 💡 Tools & Technologies
