@@ -29,6 +29,11 @@ Develop a modern data warehouse using **SQL Server** to consolidate sales data, 
 ![Draw DWH Architecture](https://github.com/rehamessa/Sales_DWH_SQL_Project/blob/main/Images/Design_DWH_Architecture.png)
 ---
 
+
+## Silver Layer || Build Integration Model
+
+![ Build Integration Model](https://github.com/rehamessa/Sales_DWH_SQL_Project/blob/main/Images/Integrtion%20diagram%20model.jpg)
+
 ### 💡 Tools & Technologies
 - Draw DIO
 - SQL Server  
