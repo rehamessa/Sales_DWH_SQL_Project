@@ -1,5 +1,6 @@
 -- Handle Null Date and transform it
--- Handle Sales Number taht <0 OR NULLS
+-- Handle Sales Number <0 OR NULLS
+---Handle Price Number <0 OR NULLS
 SELECT
         sls_ord_num
       ,sls_prd_key
@@ -18,7 +19,13 @@ SELECT
      
       ,CASE WHEN sls_sales IS NULL OR sls_sales <0 OR sls_sales != sls_quantity * ABS(sls_price)
       THEN sls_quantity * ABS(sls_price)
+      ELSE sls_sales
       END AS sls_sales
       ,sls_quantity
-      ,sls_price
+
+      ,CASE WHEN sls_price IS NULL OR sls_price <=0
+      THEN sls_sales/NULLIF(sls_quantity,0)
+      ELSE sls_price
+      END AS sls_price
+
   FROM dwh_sales.bronze.crm_sales_details
