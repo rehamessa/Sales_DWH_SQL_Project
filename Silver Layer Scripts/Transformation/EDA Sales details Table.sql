@@ -25,3 +25,9 @@ SELECT
       ,sls_price
   FROM dwh_sales.bronze.crm_sales_details
   WHERE sls_order_dt <=0 or len(sls_order_dt) !=8 -- checking date Quality
+
+  -----*** Checking Invalid date 
+  SELECT
+    *
+  FROM dwh_sales.bronze.crm_sales_details
+  WHERE sls_order_dt > sls_ship_dt OR sls_order_dt>sls_due_dt
