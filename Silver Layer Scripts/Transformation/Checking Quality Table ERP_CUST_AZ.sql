@@ -3,3 +3,9 @@ SELECT
       BDATE
   FROM dwh_sales.bronze.ERP_CUST_AZ12
   WHERE BDATE>GETDATE()
+
+-- check data Consistency and standarition
+SELECT 
+      Distinct GEn
+  FROM dwh_sales.bronze.ERP_CUST_AZ12
+  
