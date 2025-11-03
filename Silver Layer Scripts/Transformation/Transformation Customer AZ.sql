@@ -1,0 +1,7 @@
+SELECT 
+       CASE WHEN CID LIKE 'NAS%' THEN SUBSTRING(CID,4,LEN(CID))
+       ELSE CID
+       END AS CID
+      ,BDATE
+      ,GEN
+  FROM dwh_sales.bronze.ERP_CUST_AZ12
