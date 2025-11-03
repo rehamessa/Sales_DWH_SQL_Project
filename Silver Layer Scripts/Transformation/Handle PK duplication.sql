@@ -9,3 +9,5 @@ GROUP BY CST_ID
 HAVING COUNT(*)>1 OR cst_id IS NULL;
 
 
+SELECT * 
+FROM Silver.crm_cust_info

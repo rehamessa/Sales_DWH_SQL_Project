@@ -1,7 +1,10 @@
+--Handle BDATE Out Of Range Dates
 SELECT 
        CASE WHEN CID LIKE 'NAS%' THEN SUBSTRING(CID,4,LEN(CID))
        ELSE CID
        END AS CID
-      ,BDATE
+      ,CASE WHEN BDATE>GETDATE() THEN NULL 
+      ELSE BDATE
+      END AS BDATE
       ,GEN
-  FROM dwh_sales.bronze.ERP_CUST_AZ12
+  FROM dwh_sales.bronze.ERP_CUST_AZ12 
