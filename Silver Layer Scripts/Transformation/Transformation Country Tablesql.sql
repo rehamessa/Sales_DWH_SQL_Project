@@ -1,3 +1,5 @@
+INSERT INTO Silver.ERP_LOC_A101(CID,CNTRY)
+
 --Handle Consistency
 
 SELECT Replace(CID,'-','') AS CID
