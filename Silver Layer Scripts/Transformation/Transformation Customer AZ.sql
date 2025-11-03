@@ -1,3 +1,5 @@
+INSERT INTO Silver.ERP_CUST_AZ12(CID,BDATE,GEN)
+
 --Handle BDATE Out Of Range Dates
 -- Handle Consistency
 SELECT 
