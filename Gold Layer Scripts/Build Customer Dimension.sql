@@ -1,17 +1,20 @@
 ---Build Dimension Customer
 -- Data Ingegration for Gender
-SELECT CI.cst_id
-      ,CI.cst_key
-      ,CI.cst_firstname
-      ,CI.cst_lastname
-      ,CI.cst_marital_status
+--Applied A friendly Naming Rule
+--Create Surget Key
+SELECT  ROW_NUMBER()OVER(ORDER BY CST_ID) AS customer_key 
+       ,CI.cst_id AS customer_id
+      ,CI.cst_key AS customer_number
+      ,CI.cst_firstname AS first_name
+      ,CI.cst_lastname AS last_name
+      ,CI.cst_marital_status AS marital_status
       ,CASE WHEN CI.cst_gndr !='N/A' Then CI.cst_gndr ---CRM IS THE MASTER
         ELSE COALESCE(CA.GEN,'N/A')
-        END AS NEW_GEN
-      ,CI.cst_create_date
-      ,CA.BDATE
+        END AS gender
+      ,CI.cst_create_date AS create_date
+      ,CA.BDATE AS birthdate
       
-      ,LA.CNTRY
+      ,LA.CNTRY AS country
       
      
   FROM Silver.crm_cust_info AS CI
