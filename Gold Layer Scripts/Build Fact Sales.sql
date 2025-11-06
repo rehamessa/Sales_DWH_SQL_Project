@@ -1,12 +1,15 @@
+CREATE VIEW gold.fact_sales AS
+
+--Replace orignal foreign key wit surrgate keys in dims
 SELECT sd.sls_ord_num AS order_Number
       ,pr.product_key
       ,cu.customer_key
       ,sd.sls_order_dt AS order_date
-      ,sd.sls_ship_dt
-      ,sd.sls_due_dt
-      ,sd.sls_sales
-      ,sd.sls_quantity
-      ,sd.sls_price 
+      ,sd.sls_ship_dt AS ship_date
+      ,sd.sls_due_dt AS due_date
+      ,sd.sls_sales AS sales_amount
+      ,sd.sls_quantity AS quantity
+      ,sd.sls_price AS price
 
   FROM Silver.crm_sales_details AS sd
   LEFT JOIN gold.dim_products AS pr
