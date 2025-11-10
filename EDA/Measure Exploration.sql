@@ -29,6 +29,23 @@ from gold.dim_customer;
 SELECT COUNT(customer_key) AS total_customer
 from gold.fact_sales;
 
-SELECT
-*
+--Generate a report that shows all keys metrics of the business
+SELECT 'total_customer' AS measure_name ,COUNT(customer_key) AS measure_Value
+from gold.fact_sales
+
+UNION ALL
+SELECT ' total_product' AS measure_name , COUNT(product_id) AS measure_Value
+from gold.dim_products
+
+UNION ALL
+SELECT 'total_order' AS measure_name ,  COUNT(order_number) AS  measure_Value
 FROM gold.fact_sales
+
+UNION ALL
+
+SELECT 'Average_Price' AS measure_name , AVG(price) AS   measure_Value
+FROM gold.fact_sales
+UNION ALL
+
+SELECT 'total_quantity' AS measure_name , SUM(quantity) AS measure_Value
+FROM gold.fact_sales;
