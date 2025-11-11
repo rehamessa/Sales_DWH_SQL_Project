@@ -39,6 +39,25 @@ Develop a modern data warehouse using **SQL Server** to consolidate sales data, 
 #### Gold Layer || Draw Logical Model
 ![ Build logical Model](https://github.com/rehamessa/Sales_DWH_SQL_Project/blob/main/Images/logical%20data%20model.drawio.png)
 
+## 🔍 Phase 2: Exploratory Data Analysis (EDA)
+
+
+### 🎯 Goal: “Understand the Data”
+- Perform **basic SQL queries** to get familiar with datasets.  
+- Conduct **data profiling** to detect anomalies or missing values.  
+- Use **simple aggregations** and **subqueries** for initial summaries.
+
+---
+
+## 📊 Phase 3: Advanced Data Analytics
+
+
+### 🎯 Goal: “Answer Business Questions”
+- Write **complex SQL queries** for multi-source insights.  
+- Use **window functions** for advanced aggregations.  
+- Implement **CTEs** (Common Table Expressions) for readable logic.  
+- Build **reports** to support decision-making.
+
 ### 💡 Tools & Technologies
 - Draw DIO
 - SQL Server  
