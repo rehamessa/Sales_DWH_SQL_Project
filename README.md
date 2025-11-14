@@ -69,7 +69,7 @@ Develop a modern data warehouse using **SQL Server** to consolidate sales data, 
 
 ### 📁 Project Structure
 ---
-[#1 Create Database](https://github.com/rehamessa/Sales_DWH_SQL_Project/blob/main/create_DB.sql)
+[#1Create Database](https://github.com/rehamessa/Sales_DWH_SQL_Project/blob/main/create_DB.sql)
 ----
-[#1 Bronze Layer](https://github.com/rehamessa/Sales_DWH_SQL_Project/tree/main/Bronze%20Layer%20Scripts)
+[#2Bronze Layer](https://github.com/rehamessa/Sales_DWH_SQL_Project/tree/main/Bronze%20Layer%20Scripts)
 
