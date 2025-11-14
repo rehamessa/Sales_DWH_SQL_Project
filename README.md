@@ -30,7 +30,8 @@ Develop a modern data warehouse using **SQL Server** to consolidate sales data, 
 ![Draw DWH Architecture](https://github.com/rehamessa/Sales_DWH_SQL_Project/blob/main/Images/Design_DWH_Architecture.png)
 ---
 ------------
-()[https://github.com/rehamessa/Sales_DWH_SQL_Project/blob/main/create_DB.sql]
+(Create Database)(https://github.com/rehamessa/Sales_DWH_SQL_Project/blob/main/create_DB.sql)
+
 
 #### Silver Layer || Build Integration Model
 
