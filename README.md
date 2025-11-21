@@ -106,8 +106,7 @@ After completing Exploratory Data Analysis and Advanced Analytics, the final ste
 [EDA](https://github.com/rehamessa/Sales_DWH_SQL_Project/tree/main/EDA)
 
 -----
-* 
-[AQL Analysis](https://github.com/rehamessa/Sales_DWH_SQL_Project/tree/main/Advaned_Data_Analysi)
-
-*
-[PBI Dashboard](https://github.com/rehamessa/Sales_DWH_SQL_Project/blob/main/PBI_EComerce_Dashboard.pbix)
+* [AQL Analysis](https://github.com/rehamessa/Sales_DWH_SQL_Project/tree/main/Advaned_Data_Analysi)
+----
+* [PBI Dashboard](https://github.com/rehamessa/Sales_DWH_SQL_Project/blob/main/PBI_EComerce_Dashboard.pbix)
+-----
