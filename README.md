@@ -78,7 +78,8 @@ After completing Exploratory Data Analysis and Advanced Analytics, the final ste
 - **Create Dashboards**
   - Build visuals using the cleaned, modeled views
   - Include KPIs, charts, filters, and summaries based on business needs
-
+    ![Product_Analysis](https://github.com/rehamessa/Sales_DWH_SQL_Project/blob/main/Images/Product_View.png)
+    ![Customer_Analysis](https://github.com/rehamessa/Sales_DWH_SQL_Project/blob/main/Images/Customer_View.png)
 
 ### 💡 Tools & Technologies
 - Draw DIO
@@ -93,7 +94,7 @@ After completing Exploratory Data Analysis and Advanced Analytics, the final ste
 
 ----
 -----------------
-[1Create Database](https://github.com/rehamessa/Sales_DWH_SQL_Project/blob/main/create_DB.sql)
+
 ----
 [2Bronze Layer](https://github.com/rehamessa/Sales_DWH_SQL_Project/tree/main/Bronze%20Layer%20Scripts)
 
