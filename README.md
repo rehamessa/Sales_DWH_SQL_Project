@@ -58,6 +58,28 @@ Develop a modern data warehouse using **SQL Server** to consolidate sales data, 
 - Implement **CTEs** (Common Table Expressions) for readable logic.  
 - Build **reports** to support decision-making.
 
+  ## 📊 Phase 4: Data Visualization (Power BI)
+
+### 🎯 Goal: Create Dashboards Using the Final SQL Views
+
+After completing Exploratory Data Analysis and Advanced Analytics, the final step is to connect Power BI to the SQL Server data warehouse and build business dashboards.
+
+### Steps:
+
+- **Connect Power BI to SQL Server**
+  - Use *Get Data → SQL Server*
+  - Enter server and database name
+  - Load only the **final SQL views** created in previous phases
+
+- **Load the Analytical Views**
+  - Import or DirectQuery the views (facts, dimensions, analytical outputs)
+  - Validate relationships and model structure
+
+- **Create Dashboards**
+  - Build visuals using the cleaned, modeled views
+  - Include KPIs, charts, filters, and summaries based on business needs
+
+
 ### 💡 Tools & Technologies
 - Draw DIO
 - SQL Server  
@@ -68,8 +90,10 @@ Develop a modern data warehouse using **SQL Server** to consolidate sales data, 
 ---
 
 ### 📁 Project Structure
----
-[#1Create Database](https://github.com/rehamessa/Sales_DWH_SQL_Project/blob/main/create_DB.sql)
+
 ----
-[#2Bronze Layer](https://github.com/rehamessa/Sales_DWH_SQL_Project/tree/main/Bronze%20Layer%20Scripts)
+-----------------
+[1Create Database](https://github.com/rehamessa/Sales_DWH_SQL_Project/blob/main/create_DB.sql)
+----
+[2Bronze Layer](https://github.com/rehamessa/Sales_DWH_SQL_Project/tree/main/Bronze%20Layer%20Scripts)
 
