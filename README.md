@@ -102,8 +102,7 @@ After completing Exploratory Data Analysis and Advanced Analytics, the final ste
 4-[Gold Layer](https://github.com/rehamessa/Sales_DWH_SQL_Project/tree/main/Gold%20Layer%20Scripts)
 
 ----
-* 
-[EDA](https://github.com/rehamessa/Sales_DWH_SQL_Project/tree/main/EDA)
+*  [EDA](https://github.com/rehamessa/Sales_DWH_SQL_Project/tree/main/EDA)
 
 -----
 * [AQL Analysis](https://github.com/rehamessa/Sales_DWH_SQL_Project/tree/main/Advaned_Data_Analysi)
