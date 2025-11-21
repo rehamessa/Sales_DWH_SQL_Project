@@ -93,8 +93,21 @@ After completing Exploratory Data Analysis and Advanced Analytics, the final ste
 ### 📁 Project Structure
 
 ----
------------------
+
+* Data Engineering
+----
+1-[Create_database](https://github.com/rehamessa/Sales_DWH_SQL_Project/blob/main/create_DB.sql)
+2-[Bronze Layer](https://github.com/rehamessa/Sales_DWH_SQL_Project/tree/main/Bronze%20Layer%20Scripts)
+3-[Silver Layer](https://github.com/rehamessa/Sales_DWH_SQL_Project/tree/main/Silver%20Layer%20Scripts)
+4-[Gold Layer](https://github.com/rehamessa/Sales_DWH_SQL_Project/tree/main/Gold%20Layer%20Scripts)
 
 ----
-[2Bronze Layer](https://github.com/rehamessa/Sales_DWH_SQL_Project/tree/main/Bronze%20Layer%20Scripts)
+* EDA
+[EDA](https://github.com/rehamessa/Sales_DWH_SQL_Project/tree/main/EDA)
 
+-----
+* AQL Analysis
+[AQL Analysis](https://github.com/rehamessa/Sales_DWH_SQL_Project/tree/main/Advaned_Data_Analysi)
+
+*PBI Dashboard
+[PBI Dashboard](https://github.com/rehamessa/Sales_DWH_SQL_Project/blob/main/PBI_EComerce_Dashboard.pbix)
